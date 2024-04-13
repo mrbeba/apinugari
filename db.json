@@ -1,0 +1,833 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "attributes": {
+                "name": "Database System",
+                "createdAt": "2023-01-10T05:09:55.362Z",
+                "updatedAt": "2023-01-10T05:10:00.680Z",
+                "publishedAt": "2023-01-10T05:10:00.677Z",
+                "questions": {
+                    "data": [
+                        {
+                            "id": 1,
+                            "attributes": {
+                                "question": "Why we need ER diagrams?",
+                                "answer": "Entity-relationship (ER) diagrams are used to model the relationships between entities in a database.",
+                                "createdAt": "2023-01-10T05:20:34.709Z",
+                                "updatedAt": "2023-01-10T05:20:36.762Z",
+                                "publishedAt": "2023-01-10T05:20:36.761Z"
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "attributes": {
+                                "question": "Different between DB and DBMS?",
+                                "answer": "A database (DB) is an organized collection of data, stored and accessed electronically. A database management system (DBMS) is a software application that interacts with the user, other applications, and the database itself to capture and analyze the data.",
+                                "createdAt": "2023-01-10T05:23:02.422Z",
+                                "updatedAt": "2023-01-10T05:23:04.044Z",
+                                "publishedAt": "2023-01-10T05:23:04.043Z"
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "attributes": {
+                                "question": "What are the relationship types in relational database?",
+                                "answer": "One-to-One, One-to-Many and Many-to-Many",
+                                "createdAt": "2023-01-10T05:27:29.814Z",
+                                "updatedAt": "2023-01-10T05:27:31.630Z",
+                                "publishedAt": "2023-01-10T05:27:31.628Z"
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "attributes": {
+                                "question": "What is primary key in an entity?",
+                                "answer": "In a database, a primary key is a field (or combination of fields) that uniquely identifies each record in a table. The primary key is used to enforce the entity integrity of the table, as it ensures that no two records have the same key value.",
+                                "createdAt": "2023-01-10T05:32:04.115Z",
+                                "updatedAt": "2023-01-10T14:22:11.808Z",
+                                "publishedAt": "2023-01-10T05:32:05.800Z"
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "attributes": {
+                                "question": "What is foreign key?",
+                                "answer": "A foreign key is a field (or combination of fields) in a database table that refers to the primary key of another table. The purpose of the foreign key is to establish a link between the two tables, allowing data in one table to be related to data in the other table.",
+                                "createdAt": "2023-01-10T05:33:34.027Z",
+                                "updatedAt": "2023-01-10T14:22:39.637Z",
+                                "publishedAt": "2023-01-10T05:33:36.176Z"
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "attributes": {
+                                "question": "Why we need normalization?",
+                                "answer": "Normalization is the process of organizing a database in a way that reduces redundancy and dependency. It is an important step in database design, as it helps to improve the efficiency, performance, and integrity of the database.",
+                                "createdAt": "2023-01-10T05:36:25.178Z",
+                                "updatedAt": "2023-01-10T14:23:47.592Z",
+                                "publishedAt": "2023-01-10T05:36:27.043Z"
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "attributes": {
+                                "question": "What is DDL?",
+                                "answer": "Data Definition Language (DDL) is a subset of SQL that is used to define the database structure or schema. It consists of a set of commands that can be used to create, modify, and delete database objects such as tables, indexes, and sequences.",
+                                "createdAt": "2023-01-10T05:39:52.741Z",
+                                "updatedAt": "2023-01-10T05:39:54.724Z",
+                                "publishedAt": "2023-01-10T05:39:54.723Z"
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "attributes": {
+                                "question": "What is DML?",
+                                "answer": "Data Manipulation Language (DML) is a subset of SQL that is used to manage the data stored in a database. It consists of a set of commands that can be used to insert, update, delete, and retrieve data from database tables.",
+                                "createdAt": "2023-01-10T05:41:44.178Z",
+                                "updatedAt": "2023-01-10T05:41:46.378Z",
+                                "publishedAt": "2023-01-10T05:41:46.377Z"
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "attributes": {
+                                "question": "What are the popular RDBMS?",
+                                "answer": "Oracle, MySQL, Microsoft SQL Server, PostgreSQL, IBM DB2",
+                                "createdAt": "2023-01-10T05:45:06.162Z",
+                                "updatedAt": "2023-01-10T05:45:08.000Z",
+                                "publishedAt": "2023-01-10T05:45:07.998Z"
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "attributes": {
+                                "question": "What is NoSQL?",
+                                "answer": "NoSQL (short for \"Not Only SQL\") is a term used to describe database management systems that are designed to handle large amounts of data that is not well-suited for a traditional, relational database management system (RDBMS).",
+                                "createdAt": "2023-01-10T05:47:09.948Z",
+                                "updatedAt": "2023-01-10T05:47:11.654Z",
+                                "publishedAt": "2023-01-10T05:47:11.653Z"
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "attributes": {
+                                "question": "Examples for NoSQL databases?",
+                                "answer": "MongoDB, Cassandra, Redis, Couchbase, Neo4j",
+                                "createdAt": "2023-01-10T05:50:03.446Z",
+                                "updatedAt": "2023-01-10T05:50:05.104Z",
+                                "publishedAt": "2023-01-10T05:50:05.101Z"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": 2,
+            "attributes": {
+                "name": "Graphic Design",
+                "createdAt": "2023-01-10T05:10:43.810Z",
+                "updatedAt": "2023-01-10T05:10:46.275Z",
+                "publishedAt": "2023-01-10T05:10:46.273Z",
+                "questions": {
+                    "data": [
+                        {
+                            "id": 12,
+                            "attributes": {
+                                "question": "Why graphic designing is important?",
+                                "answer": "Graphic design is the art and practice of creating visual content to communicate ideas and information. It is an essential aspect of many fields, including advertising, marketing, web design, and user interface design.",
+                                "createdAt": "2023-01-10T06:56:15.874Z",
+                                "updatedAt": "2023-01-10T06:56:17.526Z",
+                                "publishedAt": "2023-01-10T06:56:17.525Z"
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "attributes": {
+                                "question": "What is resolution?",
+                                "answer": "In graphic design and digital imaging, resolution refers to the number of pixels or dots per inch (dpi) in an image or display. High resolution images have more pixels or dots per inch, which means that they are more detailed and have a higher level of quality. Low resolution images have fewer pixels or dots per inch, which means that they are less detailed and have a lower level of quality.",
+                                "createdAt": "2023-01-10T06:58:32.616Z",
+                                "updatedAt": "2023-01-10T06:58:34.230Z",
+                                "publishedAt": "2023-01-10T06:58:34.229Z"
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "attributes": {
+                                "question": "What is pixel?",
+                                "answer": "A pixel, short for \"picture element,\" is the smallest unit of a digital image. It is a single point of color and brightness that, when viewed from a distance, combines with other pixels to create the overall image. Each pixel has a specific color, represented by a set of numerical values, and a specific location on the image.",
+                                "createdAt": "2023-01-10T07:01:36.121Z",
+                                "updatedAt": "2023-01-10T07:01:38.249Z",
+                                "publishedAt": "2023-01-10T07:01:38.247Z"
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "attributes": {
+                                "question": "What is the relation between resolution and pixel?",
+                                "answer": "Resolution refers to the total number of pixels in an image, measured in pixels per inch (PPI) for digital images and dots per inch (DPI) for printed images.",
+                                "createdAt": "2023-01-10T07:05:13.658Z",
+                                "updatedAt": "2023-01-10T07:05:15.324Z",
+                                "publishedAt": "2023-01-10T07:05:15.323Z"
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "attributes": {
+                                "question": "What is raster graphics?",
+                                "answer": "Raster graphics, also known as bitmap graphics, is a type of digital image that is made up of a grid of pixels. Each pixel in a raster image represents a specific color and brightness, and when viewed from a distance, the pixels combine to create the overall image.",
+                                "createdAt": "2023-01-10T07:07:56.934Z",
+                                "updatedAt": "2023-01-10T14:23:06.311Z",
+                                "publishedAt": "2023-01-10T07:07:58.651Z"
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "attributes": {
+                                "question": "Popular raster graphic softwares?",
+                                "answer": "Adobe Photoshop, GIMP",
+                                "createdAt": "2023-01-10T07:10:54.536Z",
+                                "updatedAt": "2023-01-10T07:10:55.851Z",
+                                "publishedAt": "2023-01-10T07:10:55.849Z"
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "attributes": {
+                                "question": "What is vector graphics?",
+                                "answer": "Vector graphics is a type of digital image that is created using mathematical equations to define the shapes, lines, and colors of the image. Unlike raster graphics, which are made up of pixels, vector graphics are resolution independent, which means that they can be enlarged or reduced without losing quality.",
+                                "createdAt": "2023-01-10T07:12:25.602Z",
+                                "updatedAt": "2023-01-10T07:12:27.224Z",
+                                "publishedAt": "2023-01-10T07:12:27.222Z"
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "attributes": {
+                                "question": "Popular vector graphic softwares?",
+                                "answer": "Adobe Illustrator, CorelDRAW, Inkscape, Affinity Designer, Sketch",
+                                "createdAt": "2023-01-10T07:15:13.617Z",
+                                "updatedAt": "2023-01-10T07:15:15.215Z",
+                                "publishedAt": "2023-01-10T07:15:15.212Z"
+                            }
+                        },
+                        {
+                            "id": 20,
+                            "attributes": {
+                                "question": "Difference between CMYK and RGB color modes?",
+                                "answer": "When you are designing for print, you should use the CMYK color mode, as most printers use CMYK inks. But if you are designing for digital media, you should use RGB color mode as monitors, smartphones and televisions use RGB technology to display colors.",
+                                "createdAt": "2023-01-10T07:20:21.799Z",
+                                "updatedAt": "2023-01-10T07:20:23.687Z",
+                                "publishedAt": "2023-01-10T07:20:23.685Z"
+                            }
+                        },
+                        {
+                            "id": 21,
+                            "attributes": {
+                                "question": "What are the lossy graphic formats?",
+                                "answer": "JPEG, GIF, WebP",
+                                "createdAt": "2023-01-10T07:24:33.133Z",
+                                "updatedAt": "2023-01-10T07:24:35.262Z",
+                                "publishedAt": "2023-01-10T07:24:35.260Z"
+                            }
+                        },
+                        {
+                            "id": 22,
+                            "attributes": {
+                                "question": "What are the lossless graphic formats?",
+                                "answer": "BMP, PNG, RAW",
+                                "createdAt": "2023-01-10T07:28:28.597Z",
+                                "updatedAt": "2023-01-10T07:28:30.256Z",
+                                "publishedAt": "2023-01-10T07:28:30.255Z"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": 3,
+            "attributes": {
+                "name": "Software Programming",
+                "createdAt": "2023-01-10T05:11:12.320Z",
+                "updatedAt": "2023-01-10T05:11:14.897Z",
+                "publishedAt": "2023-01-10T05:11:14.895Z",
+                "questions": {
+                    "data": [
+                        {
+                            "id": 23,
+                            "attributes": {
+                                "question": "What is algorithm?",
+                                "answer": "An algorithm is a set of instructions or steps that are followed in order to perform a specific task or solve a specific problem. ",
+                                "createdAt": "2023-01-10T13:52:15.230Z",
+                                "updatedAt": "2023-01-10T13:52:18.058Z",
+                                "publishedAt": "2023-01-10T13:52:18.056Z"
+                            }
+                        },
+                        {
+                            "id": 24,
+                            "attributes": {
+                                "question": "What are the programming approaches?",
+                                "answer": "Imperative programming, Object-oriented programming (OOP), Functional programming, Logic programming, Scripting, Event-driven programming",
+                                "createdAt": "2023-01-10T13:55:45.718Z",
+                                "updatedAt": "2023-01-10T13:55:47.295Z",
+                                "publishedAt": "2023-01-10T13:55:47.292Z"
+                            }
+                        },
+                        {
+                            "id": 25,
+                            "attributes": {
+                                "question": "What is OOP?",
+                                "answer": "Object-oriented programming (OOP) is a programming paradigm that is based on the concept of \"objects\", which can be thought of as instances of a class. A class defines a blueprint for an object, which includes both data (attributes) and behavior (methods).",
+                                "createdAt": "2023-01-10T13:58:28.929Z",
+                                "updatedAt": "2023-01-10T13:58:30.574Z",
+                                "publishedAt": "2023-01-10T13:58:30.572Z"
+                            }
+                        },
+                        {
+                            "id": 26,
+                            "attributes": {
+                                "question": "What are the main OOP concepts?",
+                                "answer": "Abstraction, Encapsulation, Inheritance, Polymorphism",
+                                "createdAt": "2023-01-10T14:03:12.795Z",
+                                "updatedAt": "2023-01-10T14:03:14.758Z",
+                                "publishedAt": "2023-01-10T14:03:14.757Z"
+                            }
+                        },
+                        {
+                            "id": 27,
+                            "attributes": {
+                                "question": "What is the difference between low-level and high-level languages?",
+                                "answer": "The main difference between low level languages and high level languages is in the level of abstraction that they provide. High level languages tend to be more abstract and closer to natural language, making them easier to learn and use. Low-level languages are more closely tied to the specific architecture and workings of the computer.",
+                                "createdAt": "2023-01-10T14:06:46.800Z",
+                                "updatedAt": "2023-01-10T14:06:48.538Z",
+                                "publishedAt": "2023-01-10T14:06:48.535Z"
+                            }
+                        },
+                        {
+                            "id": 28,
+                            "attributes": {
+                                "question": "What is IDE?",
+                                "answer": "An Integrated Development Environment (IDE) is a software application that provides a comprehensive environment for software development.",
+                                "createdAt": "2023-01-10T14:08:47.333Z",
+                                "updatedAt": "2023-01-10T14:08:48.945Z",
+                                "publishedAt": "2023-01-10T14:08:48.943Z"
+                            }
+                        },
+                        {
+                            "id": 29,
+                            "attributes": {
+                                "question": "What is compiler?",
+                                "answer": "A compiler is a type of computer program that translates source code written in a programming language into machine code that can be executed by a computer's central processing unit (CPU).",
+                                "createdAt": "2023-01-10T14:11:00.555Z",
+                                "updatedAt": "2023-01-10T14:11:02.483Z",
+                                "publishedAt": "2023-01-10T14:11:02.481Z"
+                            }
+                        },
+                        {
+                            "id": 30,
+                            "attributes": {
+                                "question": "Difference between compiling and interpreting languages?",
+                                "answer": "The main difference between these two is that when a program is compiled, the source code is translated into machine code before the program is executed, while interpreting source code reads it and performs the actions line by line at runtime.",
+                                "createdAt": "2023-01-10T14:13:51.389Z",
+                                "updatedAt": "2023-01-10T14:13:52.985Z",
+                                "publishedAt": "2023-01-10T14:13:52.983Z"
+                            }
+                        },
+                        {
+                            "id": 31,
+                            "attributes": {
+                                "question": "Difference between bug and debug in programming?",
+                                "answer": "A bug is an error in the program that causes it to behave unexpectedly and debugging is the process of identifying and fixing bugs.",
+                                "createdAt": "2023-01-10T14:16:30.830Z",
+                                "updatedAt": "2023-01-10T14:16:32.340Z",
+                                "publishedAt": "2023-01-10T14:16:32.338Z"
+                            }
+                        },
+                        {
+                            "id": 32,
+                            "attributes": {
+                                "question": "What is exception handling in programming?",
+                                "answer": "Exception handling is a mechanism that allows a program to handle errors and exceptional conditions that may occur during execution, it is implemented using try-catch blocks, which enclose the code that may throw an exception and the code that will handle the exception.",
+                                "createdAt": "2023-01-10T14:21:15.432Z",
+                                "updatedAt": "2023-01-10T14:21:17.082Z",
+                                "publishedAt": "2023-01-10T14:21:17.080Z"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": 4,
+            "attributes": {
+                "name": "Software Testing",
+                "createdAt": "2023-01-10T05:11:42.227Z",
+                "updatedAt": "2023-01-10T05:11:43.521Z",
+                "publishedAt": "2023-01-10T05:11:43.518Z",
+                "questions": {
+                    "data": [
+                        {
+                            "id": 33,
+                            "attributes": {
+                                "question": "Why software testing is important?",
+                                "answer": "Software testing is an essential step in the software development process that helps ensure that the software is of high quality and fit for its intended purpose.",
+                                "createdAt": "2023-01-10T18:47:37.486Z",
+                                "updatedAt": "2023-01-10T18:47:39.243Z",
+                                "publishedAt": "2023-01-10T18:47:39.241Z"
+                            }
+                        },
+                        {
+                            "id": 34,
+                            "attributes": {
+                                "question": "What are the phases of Software Testing Life Cycle (STLC)?",
+                                "answer": "Requirements gathering and analysis, Planning and design, Execution, Result analysis, Reporting and tracking, Closure",
+                                "createdAt": "2023-01-10T18:53:01.697Z",
+                                "updatedAt": "2023-01-10T18:53:03.439Z",
+                                "publishedAt": "2023-01-10T18:53:03.437Z"
+                            }
+                        },
+                        {
+                            "id": 35,
+                            "attributes": {
+                                "question": "What are the main software testing techniques?",
+                                "answer": "Unit testing, Integration testing, Functional testing, Non-functional testing, System testing, Acceptance testing, Usability testing, Exploratory testing",
+                                "createdAt": "2023-01-10T18:57:47.859Z",
+                                "updatedAt": "2023-01-10T18:57:50.028Z",
+                                "publishedAt": "2023-01-10T18:57:50.025Z"
+                            }
+                        },
+                        {
+                            "id": 36,
+                            "attributes": {
+                                "question": "What is black box testing?",
+                                "answer": "Black box testing is a method of testing software where the tester does not have access to the internal structure or code of the software system. The tester is only aware of the inputs and expected outputs of the system, and is not concerned with how the system produces the output.",
+                                "createdAt": "2023-01-10T19:00:17.087Z",
+                                "updatedAt": "2023-01-10T19:00:19.353Z",
+                                "publishedAt": "2023-01-10T19:00:19.352Z"
+                            }
+                        },
+                        {
+                            "id": 37,
+                            "attributes": {
+                                "question": "What is white box testing?",
+                                "answer": "White box testing, also known as clear box testing, glass box testing or structural testing, is a method of testing software where the tester has access to the internal structure and code of the software system. This means that the tester is aware of how the software is implemented and is concerned with how the system produces the output.",
+                                "createdAt": "2023-01-10T19:02:02.784Z",
+                                "updatedAt": "2023-01-10T19:02:04.841Z",
+                                "publishedAt": "2023-01-10T19:02:04.840Z"
+                            }
+                        },
+                        {
+                            "id": 38,
+                            "attributes": {
+                                "question": "What is gray box testing?",
+                                "answer": "Gray box testing is a method of testing software where the tester has some knowledge of the internal structure and code of the software system, but not all of the details. This means that the tester is aware of some of the details of how the software is implemented, but not all of them. The tester is also concerned with how the system produces the output, but not to the same extent as in white box testing.",
+                                "createdAt": "2023-01-10T19:03:46.493Z",
+                                "updatedAt": "2023-01-10T19:03:48.360Z",
+                                "publishedAt": "2023-01-10T19:03:48.359Z"
+                            }
+                        },
+                        {
+                            "id": 39,
+                            "attributes": {
+                                "question": "Difference between manual and automation testing?",
+                                "answer": "Manual testing is done by a human tester who physically performs test cases, while automation testing is done using software tools that automatically execute test cases.",
+                                "createdAt": "2023-01-10T19:07:23.035Z",
+                                "updatedAt": "2023-01-10T19:07:25.296Z",
+                                "publishedAt": "2023-01-10T19:07:25.293Z"
+                            }
+                        },
+                        {
+                            "id": 40,
+                            "attributes": {
+                                "question": "What is a test case?",
+                                "answer": "A test case is a set of conditions or variables under which a tester will determine whether an application, software system or one of its features is working as it was originally established for. It is a single step or a set of steps, using which a tester verifies that a feature or an application satisfies the business and technical requirements that guided its design and development.",
+                                "createdAt": "2023-01-10T19:09:52.609Z",
+                                "updatedAt": "2023-01-10T19:09:54.712Z",
+                                "publishedAt": "2023-01-10T19:09:54.710Z"
+                            }
+                        },
+                        {
+                            "id": 41,
+                            "attributes": {
+                                "question": "What are the popular software testing tools?",
+                                "answer": "Selenium, JUnit, TestNG, Cucumber, Appium, LoadRunner, SoapUI",
+                                "createdAt": "2023-01-10T19:14:48.354Z",
+                                "updatedAt": "2023-01-10T19:14:50.116Z",
+                                "publishedAt": "2023-01-10T19:14:50.115Z"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": 5,
+            "attributes": {
+                "name": "System Analysis and Design",
+                "createdAt": "2023-01-10T05:12:08.704Z",
+                "updatedAt": "2023-01-10T05:12:10.729Z",
+                "publishedAt": "2023-01-10T05:12:10.727Z",
+                "questions": {
+                    "data": [
+                        {
+                            "id": 42,
+                            "attributes": {
+                                "question": "What is a system?",
+                                "answer": "A system is a collection of components or elements that work together to achieve a common goal or set of goals.",
+                                "createdAt": "2023-01-10T19:24:40.493Z",
+                                "updatedAt": "2023-01-10T19:24:42.155Z",
+                                "publishedAt": "2023-01-10T19:24:42.153Z"
+                            }
+                        },
+                        {
+                            "id": 43,
+                            "attributes": {
+                                "question": "What is SDLC?",
+                                "answer": "SDLC stands for Software Development Life Cycle. It is a framework that describes the process of planning, creating, testing, and deploying a software application or system. The SDLC provides a structured approach to software development, ensuring that all necessary steps are taken and all stakeholders' needs are addressed throughout the development process.",
+                                "createdAt": "2023-01-10T19:26:46.716Z",
+                                "updatedAt": "2023-01-10T19:26:48.330Z",
+                                "publishedAt": "2023-01-10T19:26:48.328Z"
+                            }
+                        },
+                        {
+                            "id": 44,
+                            "attributes": {
+                                "question": "What are the phases of SDLC?",
+                                "answer": "Planning, Analysis, Design, Implementation (or Development), Testing, Deployment, Maintenance",
+                                "createdAt": "2023-01-10T19:32:28.445Z",
+                                "updatedAt": "2023-01-10T19:32:30.299Z",
+                                "publishedAt": "2023-01-10T19:32:30.297Z"
+                            }
+                        },
+                        {
+                            "id": 45,
+                            "attributes": {
+                                "question": "What is requirement gathering?",
+                                "answer": "Requirement gathering is the process of identifying and documenting the needs and requirements of the stakeholders of a software project. This process is typically done during the early phases of the software development life cycle (SDLC) and is used to define the scope and objectives of the project.",
+                                "createdAt": "2023-01-10T19:35:32.537Z",
+                                "updatedAt": "2023-01-10T19:35:34.022Z",
+                                "publishedAt": "2023-01-10T19:35:34.020Z"
+                            }
+                        },
+                        {
+                            "id": 46,
+                            "attributes": {
+                                "question": "What are the fact finding methods?",
+                                "answer": "Interviews, Surveys, Observation, Case studies, Focus groups, Document analysis, Prototype testing",
+                                "createdAt": "2023-01-10T19:40:32.550Z",
+                                "updatedAt": "2023-01-10T19:40:35.639Z",
+                                "publishedAt": "2023-01-10T19:40:35.637Z"
+                            }
+                        },
+                        {
+                            "id": 47,
+                            "attributes": {
+                                "question": "What are the data modeling techniques?",
+                                "answer": "Entity and relationships, Object-oriented modeling, Hierarchical modeling, Network modeling, Relational modeling, Dimensional modeling, NoSQL modeling, Graph data modeling",
+                                "createdAt": "2023-01-11T05:19:34.022Z",
+                                "updatedAt": "2023-01-11T05:19:35.528Z",
+                                "publishedAt": "2023-01-11T05:19:35.525Z"
+                            }
+                        },
+                        {
+                            "id": 48,
+                            "attributes": {
+                                "question": "What is object oriented system designing?",
+                                "answer": "Object-oriented system design (OOD) is the process of creating a design for a software system based on the principles of object-oriented programming. This process involves the use of object-oriented design patterns, modeling, and techniques to create a system that is modular, extensible, and maintainable.",
+                                "createdAt": "2023-01-11T05:21:48.763Z",
+                                "updatedAt": "2023-01-11T05:21:50.695Z",
+                                "publishedAt": "2023-01-11T05:21:50.694Z"
+                            }
+                        },
+                        {
+                            "id": 49,
+                            "attributes": {
+                                "question": "What is SRS?",
+                                "answer": "SRS stands for Software Requirements Specification. It is a document that describes the intended behavior and features of a software system. It is a detailed description of what the software is supposed to do and how it should be built, it is also known as \"software requirements document\" (SRD).",
+                                "createdAt": "2023-01-11T05:23:14.678Z",
+                                "updatedAt": "2023-01-11T05:23:16.637Z",
+                                "publishedAt": "2023-01-11T05:23:16.636Z"
+                            }
+                        },
+                        {
+                            "id": 50,
+                            "attributes": {
+                                "question": "What is functional requirements?",
+                                "answer": "Functional requirements define what a software system must do, and non-functional requirements define how well it must do it. Together they are used to specify the complete requirements of the software system.",
+                                "createdAt": "2023-01-11T05:25:29.351Z",
+                                "updatedAt": "2023-01-11T05:25:30.884Z",
+                                "publishedAt": "2023-01-11T05:25:30.881Z"
+                            }
+                        },
+                        {
+                            "id": 51,
+                            "attributes": {
+                                "question": "What is non-functional requirements?",
+                                "answer": "Non-functional requirements are a set of requirements that describe how a software system should behave in terms of performance, scalability, security, usability, and other quality attributes. They describe the \"how well\" a system should perform, rather than the specific functionality it should provide.",
+                                "createdAt": "2023-01-11T05:27:19.437Z",
+                                "updatedAt": "2023-01-11T05:27:21.206Z",
+                                "publishedAt": "2023-01-11T05:27:21.205Z"
+                            }
+                        },
+                        {
+                            "id": 52,
+                            "attributes": {
+                                "question": "What are the popular system designing methods?",
+                                "answer": "Waterfall, Agile, Scrum, Kanban, Spiral, XP (Extreme Programming), Six Sigma",
+                                "createdAt": "2023-01-11T05:31:28.184Z",
+                                "updatedAt": "2023-01-11T05:31:29.910Z",
+                                "publishedAt": "2023-01-11T05:31:29.909Z"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": 6,
+            "attributes": {
+                "name": "Web Programming",
+                "createdAt": "2023-01-10T05:12:39.372Z",
+                "updatedAt": "2023-01-10T05:12:41.093Z",
+                "publishedAt": "2023-01-10T05:12:41.091Z",
+                "questions": {
+                    "data": [
+                        {
+                            "id": 53,
+                            "attributes": {
+                                "question": "What is a static website?",
+                                "answer": "A static website is a type of website that contains fixed HTML pages. The content on each page is pre-written and does not change unless the website's developer manually updates the HTML code.",
+                                "createdAt": "2023-01-11T05:37:00.687Z",
+                                "updatedAt": "2023-01-11T05:39:20.363Z",
+                                "publishedAt": "2023-01-11T05:37:01.940Z"
+                            }
+                        },
+                        {
+                            "id": 54,
+                            "attributes": {
+                                "question": "What is a dynamic website?",
+                                "answer": "A dynamic website is a type of website that generates the content on each page at the time the user requests it. Unlike static websites, which have fixed HTML pages, dynamic websites use server-side scripting, databases, and other technologies to generate content on the fly. The content on a dynamic website can change based on user input, interactions, and other factors.",
+                                "createdAt": "2023-01-11T05:39:01.202Z",
+                                "updatedAt": "2023-01-11T05:39:02.623Z",
+                                "publishedAt": "2023-01-11T05:39:02.621Z"
+                            }
+                        },
+                        {
+                            "id": 55,
+                            "attributes": {
+                                "question": "What are the server-side scripting languages?",
+                                "answer": "PHP, ASP.NET, Ruby, Java, Python, Node.js",
+                                "createdAt": "2023-01-11T05:42:24.081Z",
+                                "updatedAt": "2023-01-11T05:42:26.342Z",
+                                "publishedAt": "2023-01-11T05:42:26.341Z"
+                            }
+                        },
+                        {
+                            "id": 56,
+                            "attributes": {
+                                "question": "What is client-side scripting?",
+                                "answer": "Client-side scripting, also known as front-end scripting, refers to the practice of using programming languages to add dynamic behavior and interactivity to web pages. Client-side scripting is executed by the user's web browser, as opposed to server-side scripting, which is executed on the web server. The scripts are executed on the client's computer and the results of that execution are displayed to the client.",
+                                "createdAt": "2023-01-11T05:46:35.633Z",
+                                "updatedAt": "2023-01-11T05:46:37.493Z",
+                                "publishedAt": "2023-01-11T05:46:37.491Z"
+                            }
+                        },
+                        {
+                            "id": 57,
+                            "attributes": {
+                                "question": "What is a framework?",
+                                "answer": "A framework is a collection of pre-written code that provides a foundation for building software applications. It is a set of libraries, modules, and tools that are designed to help developers work more efficiently by providing a common structure and set of conventions for building applications.",
+                                "createdAt": "2023-01-11T05:48:18.622Z",
+                                "updatedAt": "2023-01-11T05:48:20.239Z",
+                                "publishedAt": "2023-01-11T05:48:20.237Z"
+                            }
+                        },
+                        {
+                            "id": 58,
+                            "attributes": {
+                                "question": "What is a web server?",
+                                "answer": "A web server is a software program or hardware device that processes requests from web clients, such as web browsers, and serves them the requested web pages. Web servers handle the communication between web clients and the server-side resources, such as databases, that are required to generate the web pages.",
+                                "createdAt": "2023-01-11T05:50:01.469Z",
+                                "updatedAt": "2023-01-11T05:50:03.444Z",
+                                "publishedAt": "2023-01-11T05:50:03.442Z"
+                            }
+                        },
+                        {
+                            "id": 59,
+                            "attributes": {
+                                "question": "What are the commonly used media formats on websites?",
+                                "answer": "JPEG, PNG, GIF, SVG, MP4, WebM, OGG, MP3, AAC",
+                                "createdAt": "2023-01-11T05:54:34.879Z",
+                                "updatedAt": "2023-01-11T05:54:36.820Z",
+                                "publishedAt": "2023-01-11T05:54:36.819Z"
+                            }
+                        },
+                        {
+                            "id": 60,
+                            "attributes": {
+                                "question": "What is a domain name?",
+                                "answer": "A domain name is a human-friendly address that is used to identify and locate a specific website or server on the internet. It serves as a unique identification for a website and helps users find and access the website. The domain name is also used by the Domain Name System (DNS) to translate the domain name into an IP address, which is a string of numbers that is used to locate a server on the internet.",
+                                "createdAt": "2023-01-11T06:02:09.655Z",
+                                "updatedAt": "2023-01-11T06:02:11.189Z",
+                                "publishedAt": "2023-01-11T06:02:11.188Z"
+                            }
+                        },
+                        {
+                            "id": 61,
+                            "attributes": {
+                                "question": "What is an API?",
+                                "answer": "An API, or Application Programming Interface, is a set of protocols, routines, and tools for building software and applications. An API defines the way that different software systems interact with each other and allows developers to access the functionality of a particular system or service.",
+                                "createdAt": "2023-01-11T06:04:39.883Z",
+                                "updatedAt": "2023-01-11T06:04:41.496Z",
+                                "publishedAt": "2023-01-11T06:04:41.494Z"
+                            }
+                        },
+                        {
+                            "id": 62,
+                            "attributes": {
+                                "question": "Difference between POST and GET requests?",
+                                "answer": "GET requests are used to retrieve data and are safe, idempotent and cached, while POST requests are used to send data and are typically used for sensitive and non-idempotent information, like creating new records or updating existing records, and not cached.",
+                                "createdAt": "2023-01-11T06:07:09.626Z",
+                                "updatedAt": "2023-01-11T06:07:11.598Z",
+                                "publishedAt": "2023-01-11T06:07:11.596Z"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": 7,
+            "attributes": {
+                "name": "Local Area Network",
+                "createdAt": "2023-01-10T05:13:04.129Z",
+                "updatedAt": "2023-01-10T05:13:06.177Z",
+                "publishedAt": "2023-01-10T05:13:06.176Z",
+                "questions": {
+                    "data": [
+                        {
+                            "id": 63,
+                            "attributes": {
+                                "question": "What is a LAN?",
+                                "answer": "A LAN, or Local Area Network, is a group of interconnected devices that communicate with each other over a relatively short distance. A LAN can be used to connect computers, servers, printers, and other devices within a small geographic area, such as a single building or campus.",
+                                "createdAt": "2023-01-11T07:10:52.820Z",
+                                "updatedAt": "2023-01-11T07:10:54.350Z",
+                                "publishedAt": "2023-01-11T07:10:54.348Z"
+                            }
+                        },
+                        {
+                            "id": 64,
+                            "attributes": {
+                                "question": "What is a topology?",
+                                "answer": "In network terms, topology refers to the physical and logical layout of a network and how the devices on a network are connected to one another. The topology of a network defines how data is transmitted and received by devices, and it can have a significant impact on the performance, scalability, and security of a network.",
+                                "createdAt": "2023-01-11T07:12:07.377Z",
+                                "updatedAt": "2023-01-11T07:12:08.920Z",
+                                "publishedAt": "2023-01-11T07:12:08.918Z"
+                            }
+                        },
+                        {
+                            "id": 65,
+                            "attributes": {
+                                "question": "What are the main network topologies?",
+                                "answer": "Bus topology, Star topology, Ring topology, Mesh topology and Hybrid topology",
+                                "createdAt": "2023-01-11T07:16:03.873Z",
+                                "updatedAt": "2023-01-11T07:16:05.367Z",
+                                "publishedAt": "2023-01-11T07:16:05.366Z"
+                            }
+                        },
+                        {
+                            "id": 66,
+                            "attributes": {
+                                "question": "What is hybrid topology?",
+                                "answer": "A hybrid topology is a network configuration that combines two or more different types of network topologies. This allows for the benefits of each topology to be combined and potentially improves the overall performance and reliability of the network. An example of a hybrid topology would be a combination of a bus and a star topology.",
+                                "createdAt": "2023-01-11T07:17:17.470Z",
+                                "updatedAt": "2023-01-11T07:17:19.032Z",
+                                "publishedAt": "2023-01-11T07:17:19.031Z"
+                            }
+                        },
+                        {
+                            "id": 67,
+                            "attributes": {
+                                "question": "What are the basic requirements for data transmission?",
+                                "answer": "Sender device, Receiver device, Transmission medium",
+                                "createdAt": "2023-01-11T07:20:36.810Z",
+                                "updatedAt": "2023-01-11T07:20:39.289Z",
+                                "publishedAt": "2023-01-11T07:20:39.287Z"
+                            }
+                        },
+                        {
+                            "id": 68,
+                            "attributes": {
+                                "question": "What is loopback IP?",
+                                "answer": "A loopback IP address is a special IP address (127.0.0.0/8) that is designated for the software loopback interface of a device. It is used to test the network stack of a device and to access the device itself without using a physical network connection. Packets sent to a loopback IP address will be looped back to the same device, allowing the device's software to process the packets as if they had been received from a physical network connection.",
+                                "createdAt": "2023-01-11T07:22:05.641Z",
+                                "updatedAt": "2023-01-11T07:22:07.419Z",
+                                "publishedAt": "2023-01-11T07:22:07.418Z"
+                            }
+                        },
+                        {
+                            "id": 69,
+                            "attributes": {
+                                "question": "What are the two types of transmission mediums?",
+                                "answer": "Guided transmission mediums, Unguided transmission mediums",
+                                "createdAt": "2023-01-11T07:24:07.803Z",
+                                "updatedAt": "2023-01-11T07:24:09.868Z",
+                                "publishedAt": "2023-01-11T07:24:09.866Z"
+                            }
+                        },
+                        {
+                            "id": 70,
+                            "attributes": {
+                                "question": "What is the main difference between router and switch?",
+                                "answer": "Router connects multiple networks while switch connect multiple devices on a single network. Routers operate at a higher level in the OSI model and focus on the logical address (IP) while switches focus on the physical address (MAC).",
+                                "createdAt": "2023-01-11T07:26:36.383Z",
+                                "updatedAt": "2023-01-11T07:26:37.941Z",
+                                "publishedAt": "2023-01-11T07:26:37.940Z"
+                            }
+                        },
+                        {
+                            "id": 71,
+                            "attributes": {
+                                "question": "What is the main difference between switch and hub?",
+                                "answer": "A switch is a more advanced and intelligent device than a hub, while the hub is simpler, older and less efficient device.",
+                                "createdAt": "2023-01-11T07:29:08.960Z",
+                                "updatedAt": "2023-01-11T07:29:10.862Z",
+                                "publishedAt": "2023-01-11T07:29:10.859Z"
+                            }
+                        },
+                        {
+                            "id": 72,
+                            "attributes": {
+                                "question": "What is protocol?",
+                                "answer": "A protocol is a set of rules and conventions that govern how devices on a network communicate with each other. It defines the format, timing, sequencing, and error-checking of the data being transmitted, as well as the actions to be taken in specific communication scenarios.",
+                                "createdAt": "2023-01-11T07:30:25.932Z",
+                                "updatedAt": "2023-01-11T07:30:27.571Z",
+                                "publishedAt": "2023-01-11T07:30:27.570Z"
+                            }
+                        },
+                        {
+                            "id": 73,
+                            "attributes": {
+                                "question": "What is the use of \"ping\" command?",
+                                "answer": "The \"ping\" command is a basic network troubleshooting tool that is used to test the reachability of a networked device by sending an Internet Control Message Protocol (ICMP) Echo Request packet, and waiting for a corresponding ICMP Echo Reply. The \"ping\" command can be used to determine whether a network connection is working properly, and to test the round-trip time (RTT) of data packets traveling to and from a specific IP address or hostname.",
+                                "createdAt": "2023-01-11T07:36:27.216Z",
+                                "updatedAt": "2023-01-11T07:36:28.714Z",
+                                "publishedAt": "2023-01-11T07:36:28.713Z"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 7
+        }
+    }
+}
